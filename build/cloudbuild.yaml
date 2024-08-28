@@ -11,3 +11,5 @@ steps:
     args:
       - '-c'
       - 'terraform apply --auto-approve --var="cidr_block=$_CIDR_BLOCK"'
+options:
+  logging: CLOUD_LOGGING_ONLY
